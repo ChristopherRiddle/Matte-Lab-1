@@ -1,0 +1,28 @@
+{
+  "name": "matte-lab-1",
+  "displayName": "Matte-Lab-1",
+  "description": "Dark",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Matte Lab V1",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Matte Lab V1-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "Matte-Lab-Icon-THeme",
+        "label": "Matte Lab Icon Theme",
+        "path": "./fileicons/my-icon-theme.json"
+      }
+    ]
+  }
+}
